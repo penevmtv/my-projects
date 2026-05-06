@@ -1,0 +1,15 @@
+[
+    {
+        "img":"https://www.stylespafurniture.com/wp-content/uploads/2025/12/LUXE-150x150.jpg",
+        "name": "Armchair",
+        "price": "259",
+        "decFactor":"0.4"
+
+    },
+    {
+        "img":"https://www.stylespafurniture.com/wp-content/uploads/2020/03/Cove_3_Door_Wardrobe_1.jpg",
+        "name": "Wardrobe",
+        "price": "120",
+        "decFactor":"1.2"
+    }
+]
