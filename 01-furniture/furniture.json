@@ -1,13 +1,13 @@
 [
     {
-        "img":"https://www.stylespafurniture.com/wp-content/uploads/2025/12/LUXE-150x150.jpg",
+        "img":"https://media.gettyimages.com/id/sb10067076e-001/photo/empty-leather-armchair.jpg?s=2048x2048&w=gi&k=20&c=l29qf1-eSYe-2ruS-CxrS-W0tvQ88k3BlDT9a34wzuI=",
         "name": "Armchair",
         "price": "259",
         "decFactor":"0.4"
 
     },
     {
-        "img":"https://www.stylespafurniture.com/wp-content/uploads/2020/03/Cove_3_Door_Wardrobe_1.jpg",
+        "img":"https://media.gettyimages.com/id/172960307/photo/wardrobe-2.jpg?s=2048x2048&w=gi&k=20&c=V6JsV_Aku1zX0qN2wP73oXLSQivY7fS-IqwZiADC3wU=",
         "name": "Wardrobe",
         "price": "120",
         "decFactor":"1.2"
