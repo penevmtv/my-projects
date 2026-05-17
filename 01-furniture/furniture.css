@@ -62,4 +62,9 @@ h1 {
   border-radius: 10px;
   font-weight: bold;
   margin: 10px 0 30px;
+  cursor: pointer;
+}
+
+#exercise button:hover {
+    background: darkblue;
 }
