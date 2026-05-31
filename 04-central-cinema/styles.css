@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    background-image: url(./fc760ea61065e82a10007a9f139e-1588373.jpg);
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+}
+
+form,
+section {
+    position: relative;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.911);
+    width: 60%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+input {
+    background-color: transparent;
+    border: solid;
+    border-color: rgb(214, 213, 213);
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#container input {
+    flex-grow: 3;
+    margin: 5px;
+}
+
+#movies {
+    min-height: 350px;
+}
+
+#add-new,
+#archive {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 100px;
+}
+
+strong {
+    padding: 10px;
+}
+
+h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    color: rgb(253, 42, 68);
+    font-size: 50px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #8da1b977;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#archive strong {
+    position: relative;
+}
+
+li button {
+    cursor: pointer;
+}
+
+button {
+    box-shadow: 2px 3px 5px 1px #cea4a4;
+    padding: 5px;
+    background: linear-gradient(to bottom, #ee6c6c 5%, #f50a0a 100%);
+    background-color: #ee6c6c;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #a80606;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #f50a0a 5%, #970303 100%);
+    background-color: #970303;
+
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+@media (max-width: 768px) {
+    form, section {
+        width: 90%;
+    }
+    
+    li {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    li div {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
