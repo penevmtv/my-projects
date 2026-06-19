@@ -1,0 +1,17 @@
+{
+  "name": "string-builder-tests",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "class-string-builder.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "MP",
+  "license": "ISC",
+  "description": "Unit tests for StringBuilder class using Mocha and Chai",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.6"
+  }
+}
